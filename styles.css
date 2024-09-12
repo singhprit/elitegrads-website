@@ -11,17 +11,17 @@ body {
     color: #333;
 }
 
-/* Lego-like Color Scheme */
+/* Custom Colors Based on User Request */
 :root {
-    --primary-color: #f9c80e;
-    --secondary-color: #f86624;
-    --accent-color: #ea3546;
-    --background-color: #662e9b;
-    --text-color: #43bccd;
+    --green-color: #28a745;  /* Green for Concentration */
+    --orange-color: #ff9800; /* Orange for Mood Lifting */
+    --blue-color: #2196f3;   /* Blue for Productivity */
+    --background-color: #f4f4f4;
+    --text-color: #333;
 }
 
 header {
-    background-color: var(--background-color);
+    background-color: var(--blue-color); /* Supercharging Productivity */
     padding: 1.5rem;
     text-align: center;
     color: #fff;
@@ -29,7 +29,7 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: var(--green-color); /* Green for focus */
 }
 
 nav ul {
@@ -45,13 +45,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--text-color);
+    color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 nav ul li a:hover {
-    color: var(--accent-color);
+    color: var(--orange-color); /* Orange for mood boost */
 }
 
 section {
@@ -64,7 +64,7 @@ section {
 }
 
 h2 {
-    color: var(--primary-color);
+    color: var(--green-color); /* Green to maintain focus */
     margin-bottom: 1rem;
 }
 
@@ -99,7 +99,7 @@ form input, form select, form textarea, form button {
 }
 
 form button {
-    background-color: var(--primary-color);
+    background-color: var(--orange-color); /* Orange to lift mood */
     color: #fff;
     cursor: pointer;
     font-size: 1.1rem;
@@ -107,7 +107,7 @@ form button {
 }
 
 form button:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--blue-color); /* Hover color for enhanced productivity */
 }
 
 .help-section {
@@ -117,7 +117,7 @@ form button:hover {
 }
 
 .help-box {
-    background-color: var(--secondary-color);
+    background-color: var(--green-color); /* Green for concentration */
     color: #fff;
     padding: 1.5rem;
     border-radius: 8px;
@@ -126,7 +126,7 @@ form button:hover {
 }
 
 footer {
-    background-color: var(--background-color);
+    background-color: var(--blue-color); /* Blue for consistent productivity */
     color: #fff;
     text-align: center;
     padding: 1rem;
